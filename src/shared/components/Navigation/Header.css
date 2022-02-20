@@ -1,0 +1,54 @@
+/* Header Section */
+
+.header {
+  background-color: transparent;
+  opacity: 1;
+  position: fixed;
+  width: 100vw;
+  z-index: 8;
+}
+
+.header nav {
+  padding: 12px;
+}
+
+.header__logo img {
+  position: relative;
+  top: 38%;
+  left: 40%;
+  width: 55px;
+  height: 70px;
+}
+
+.header__menu {
+  margin-top: 28px;
+}
+
+/* Desktop Menu  */
+
+.header ul {
+  position: relative;
+  list-style-type: none;
+  margin: auto;
+  top: 25px;
+  left: -7px;
+  /* display: none; */
+}
+
+.header ul li {
+  padding: 2%;
+  margin: 0 5%;
+}
+
+.header ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #325434;
+  font-size: 1.15rem;
+  font-family: "Cardo", Serif;
+}
+
+.header ul li a:hover {
+  color: #325434b7;
+  border-bottom: 2px solid #611406;
+}
